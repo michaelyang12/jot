@@ -13,7 +13,6 @@ func DisplayList(notes []Note) {
 		fmt.Println("no notes yet")
 		return
 	}
-
 	idWidth := len(fmt.Sprintf("%d", notes[0].ID))
 
 	for _, n := range notes {
